@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: Lucida Calligraphy;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 36px;
+}
+.container{
+    border: 1px solid grey;
+    width: 28%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    height: 360px;
+}
+/*
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    border: 1px solid gray;
+    height: 100vh;
+}*/
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 45px 35px 20px 35px;
+}
+input{
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    background-color: rgba(243, 243, 243, 0.534);
+}
+button{
+    padding: 8px;
+    outline: none;
+    margin: 15px 0 0 0;
+    border-radius: 3px;
+    border: 0 solid transparent;
+    background-color: #0095f6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.har{
+    margin: 0 35px;
+    display: flex;
+}
+hr{
+   flex-basis: 45%;
+  border: 1px solid black;
+}
+.har p{
+    flex-basis: 100%;
+    text-align: center;
+}
+.login{
+ margin: 20px 20px 15px 20px;
+display: flex;
+justify-content: center;
+}
+img{
+ width: 60px;
+}
+.gambar{
+   display: flex;
+   justify-content: center;
+}
